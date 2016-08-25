@@ -47,3 +47,402 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+
+.row {
+  background: #fff;
+  min-width: 1060px;
+  padding: 66px 0 44px 0;
+  position: static;
+  top-margin: 400px;
+}
+
+.row{
+  height: 40px;
+}
+
+/*
+  ======================
+  Grid
+  ======================
+*/
+*,
+*before,
+*after:{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.teaser-col-1-3,
+.grid{
+  width: 240px;
+  
+}
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+  padding: 20px;
+}
+.container{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
+
+aside{
+  float: right;
+  width: 60%;
+  text-align: left;
+  display: inline-block;
+
+}
+
+.aboutlogo{
+  float: right;
+  width: 64%;
+}
+
+aside
+.aboutme{
+    margin-top: 20px;
+    margin-bottom: 190px;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+.aboutlogo{
+   margin: 0 1.5% 24px 1.5%;
+}
+
+/*
+  ======================
+  Image
+  =====================
+*/
+
+img{
+  border-radius: 6px;
+  display: block;
+  height: 300px;
+  width: 300px;
+
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+   content:"";
+   display: table;
+}
+.group:after {
+   clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+h1, h2, h3, h4{
+  color: #648880;
+}
+h1, h3, h4, h5, p{
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  color: #a9b2b9;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: 400;
+}
+cite,
+em{
+  font-style: italic;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #64880;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+p a{
+  border-bottom: 1px solid #dfe2e5;
+}
+
+
+
+
+/* this is how you combine selectors 
+   .headerone.p header {
+      background: yellow;
+   }
+*/
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  border-top: 4px solid #64880;
+  float: left;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: .4px;
+  line-height: 44px;
+  padding: 48px 0 22px 0;
+  text-transform: uppercase;
+}
+
+.primary-nav {
+  margin: 70px 0 22px 0;
+  text-align: right;
+}
+
+.primary-nav {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  border-top: 4px solid #64880;
+}
+
+
+/*
+  =========================================
+  Primary footer
+  =========================================
+*/
+
+.primary-footer {
+  color: #648880;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top 44px;
+}
+
+.primary-footer small{
+   float: left;
+   font-weight: 400;
+}
+
+/*
+================================
+Custom Styles
+================================
+*/
+
+body {
+  background: #293f50;
+  color: #888;
+  font: 300 16px/22px, "Open Sans", "Helevetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4 {
+  color: #648880;
+}
+
+
+
+strong {
+  font-weight: 400;
+} 
+cite, em {
+  font-style: italic;
+}
+
+/*
+  ========================================
+  Links - changes color when a user hovers over an anchor
+  ========================================
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
+a h3:hover{
+   color: #a9b2b9;
+}
+
+
+.secondary-nav {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+.primary-footer small{
+  float: left;
+  font-weight: 400;
+}
+
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero h1{
+  font-size: 36px;
+}
+
+.hero p{
+  font-size: 26px;
+  font-weight: 100;
+}
+
+
+
+p {
+  text-align: left;
+}
+
+p {
+  font-size: 13px;
+}
+
+.primary-nav{
+  font-size: 16px;
+  word-spacing: 2em;
+}
+
+.secondary-nav{
+  word-spacing: .75em;
+}
+
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+
+.primary-header a: hover,
+.primary-header a: hover{
+  color: #648880;
+}
+
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.primary-nav{
+    text-align: right;
+}
+.nav {
+  text-align: right;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.hero {
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 34px;
+}
+
+p {
+  font-size: 20px ;
+  font-weight: 100;
+}
+
+.teaser a:hover h5 {
+  color: #a9b2b9;
+}
+
+/*
+  ========================================
+  Google Font/Custom Styles
+  ========================================
+*/
+
+
+body {
+  color: #888;
+  font: 300 14px/20px "Roboto"
+  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+
+
+

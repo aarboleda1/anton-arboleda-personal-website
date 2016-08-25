@@ -431,10 +431,10 @@ body {
 .row{
   background: #fff;
   min-width: 960px;
-  padding: 66px 0 44px 0;
-
+  padding: 66px 0 40px 0;
+  top-margin: 300px;
+  position: fixed;
 }
-
 
 .teaser p{
   text-align: left;
