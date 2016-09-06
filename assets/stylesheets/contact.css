@@ -48,95 +48,7 @@ table {
   border-spacing: 0;
 }
 
-/*
-  ========================================
-  Rows
-  ========================================
-*/
 
-.
-.row {
-  background: #fff;
-  min-width: 1060px;
-  padding: 66px 0 44px 0;
-  position: static;
-  top-margin: 400px;
-}
-
-.row{
-  height: 40px;
-}
-
-/*
-  ======================
-  Grid
-  ======================
-*/
-*,
-*before,
-*after:{
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.teaser-col-1-3,
-.grid{
-  width: 240px;
-  
-}
-.container,
-.grid {
-  margin: 0 auto;
-  width: 960px;
-  padding: 20px;
-}
-.container{
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-
-.grid {
-  margin-right: 100px;
-}
-
-aside{
-  float: right;
-  width: 60%;
-  text-align: left;
-  display: inline-block;
-
-}
-
-.aboutlogo{
-  float: right;
-  width: 64%;
-}
-
-aside
-.aboutme{
-    margin-top: 100px;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    margin-left: 80px;
-}
-.aboutlogo{
-   margin: 0 1.5% 24px 1.5%;
-}
-
-/*
-  ======================
-  Image
-  =====================
-*/
-
-img{
-  border-radius: 6px;
-  display: block;
-  height: 300px;
-  width: 300px;
-
-}
 /*
   ========================================
   Clearfix
@@ -231,6 +143,10 @@ p a{
   Home
   ========================================
 */
+
+.hero{
+   padding: 22px 80px 66px 80px;
+}
 
 
 
@@ -344,6 +260,12 @@ a h3:hover{
   font-weight: 400;
 }
 
+.hero {
+  color: #fff;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+}
 
 .hero h2 {
   font-size: 36px;
@@ -361,11 +283,11 @@ a h3:hover{
 
 
 p {
-  text-align: left;
+  text-align: center;
 }
 
 p {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .primary-nav{
@@ -416,7 +338,7 @@ p {
   font-size: 34px;
 }
 
-p {
+.hero p {
   font-size: 20px ;
   font-weight: 100;
 }
@@ -446,5 +368,35 @@ body {
   ========================================
 */
 
+.row{
+  background: #fff;
+  min-width: 960px;
+  padding: 66px 0 44px 0;
+
+}
 
 
+.teaser p{
+  text-align: left;
+}
+
+.teaser h3 {
+  text-align: left;
+}
+
+/*
+  ========================================
+ Web Form
+  ========================================
+*/
+label, input, textarea {
+  display: block;
+  margin-bottom: 15px;
+}
+input, textarea{
+  width: 445px;
+  font-size: 20px;
+}
+label {
+  font-weight: bold
+}

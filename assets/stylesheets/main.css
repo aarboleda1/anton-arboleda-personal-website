@@ -432,8 +432,6 @@ body {
   background: #fff;
   min-width: 960px;
   padding: 66px 0 40px 0;
-  top-margin: 300px;
-  position: fixed;
 }
 
 .teaser p{
@@ -443,3 +441,36 @@ body {
 .teaser h3 {
   text-align: left;
 }
+
+/*
+  ========================================
+  Web Form
+  ========================================
+*/
+
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 15px;
+}
+input, textarea{
+  width: 445px;
+  font-size: 20px;
+}
+label {
+  font-weight: bold
+}
+input[type=submit] {
+  width: 165px;
+  padding: 10px;
+}
+input[type="checkbox"] {
+  display: inline;
+}
+label[for="checkbox"] {
+  display: inline;
+}
+input[type="text"] {
+  width: 445px;
+}
+
